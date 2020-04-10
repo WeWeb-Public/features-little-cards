@@ -224,7 +224,7 @@ export default {
 .features-little-cards {
     position: relative;
     pointer-events: all;
-    margin: 120px 0;
+    margin: 150px 0;
     .background {
         position: absolute;
         top: 0;
@@ -290,6 +290,7 @@ export default {
                 border-radius: 15px;
                 box-shadow: 0 2px 25px rgba(0, 0, 0, 0.15);
                 margin-bottom: 20px;
+
                 .contextmenu-container {
                     position: absolute;
                     top: 0;
@@ -302,8 +303,6 @@ export default {
                     text-align: center;
                     background-color: #ef811a;
                     color: white;
-                    .index {
-                    }
                     .contextmenu {
                         font-size: 1.2rem;
                         cursor: pointer;
